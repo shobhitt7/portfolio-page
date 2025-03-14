@@ -1,25 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import About from './pages/About';
+import Contact from './pages/Contact';
+import ProjectLayout from './pages/ProjectLayout';
+import Home from './pages/Home';
+import Layout from './pages/Layout';
+import Project from './pages/Projects';
+import Meesho from './pages/meeshoproject';
+import ProjectGrid from './pages/Grid';
 
-function App() {
+export default function App() {
+  console.log("hello")
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+
+        
+           <Route path="projects" element={<ProjectLayout />}>
+             <Route index element={<Project/>} />
+             <Route path="meesho" element={<Meesho/>} />
+             <Route path="spacesite" element={<ProjectGrid/>} />
+         </Route>  
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;

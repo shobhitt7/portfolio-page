@@ -11,3 +11,380 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body{
+  background-image: url("/public/honey3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 108vh;
+
+  }
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid rgb(236, 233, 246);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+  }
+
+  .site-logo{
+    color: rgb(12, 210, 12);
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+
+  header a{
+    color: rgb(12, 210, 12);
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    margin-left: 50px;
+  }
+
+  header a:hover{
+    border-bottom: 3px solid rgb(152, 22, 22);
+  }
+
+  .first-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 auto;
+    align-items: center;
+    line-height: 35px;
+    font-size: 20px;
+  }
+
+  .first-line{
+    color: rgb(144, 144, 157);
+  }
+
+  .const-line{
+    color: rgb(230, 19, 19);
+  }
+
+  .detail-line{
+    color: rgb(12, 210, 12);
+  }
+
+  .link-line{
+    color: orange;
+  }
+
+  .name-line{
+    color: #ffff;
+    margin: 0;
+    line-height: 60px;
+    font-size: 50px;
+  }
+
+  .frontend-line{
+    color: rgb(230, 19, 19);
+    margin: 0;
+    font-size: 30px;
+  }
+  a{
+    color: orange;
+    text-decoration: none;
+  }
+
+  /* footer */
+
+  footer {
+    background-color: #0d0320fe;
+    color: #DDDDDD;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+ footer > h1 {
+  font-size: 25px;
+  margin-left: 40px;
+  margin-bottom: 0;
+ }
+ .logo-img{
+  margin-top: 0;
+  width: 60px;
+  height: 60px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+ }
+
+ /* About page */
+
+ .about-container {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 25px;
+  background: rgba(174, 160, 234, 0.9);  
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.about-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #002244; 
+  text-align: center;
+}
+
+.about-text {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.projects-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #004488; 
+  margin-top: 20px;
+}
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+}
+
+.project-item {
+  background: #f0f8ff; 
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #00d4ff;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-item:hover {
+  transform: translateY(-3px);
+  background: #e0f0ff; 
+}
+
+.about-footer {
+  font-size: 18px;
+  color: #222;
+  margin-top: 20px;
+}
+
+.connect-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #141413; 
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 70px;
+}
+
+/* ContactPage */
+
+.contact-container {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input, .contact-textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-button {
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.contact-button:hover {
+  background: darkblue;
+}
+
+.contact-social-links {
+  margin-top: 20px;
+}
+
+.contact-link {
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+}
+
+.contact-link:hover {
+  color: darkblue;
+}
+
+/* project page */
+
+.project-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem; 
+}
+
+.project-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #eef608;
+  margin-top: 1px;
+  margin-bottom: 0.1rem;
+}
+
+.project-description {
+  font-size: 1.2rem;
+  color: #f8e27f;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-bottom: 15px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 650px;
+  margin-bottom: 0;
+}
+
+.project-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* project navbar */
+
+ .host-nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+ }
+
+ .btn-primary {
+  margin-top: 4px;
+  background-color: #3b82f6; 
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb; 
+  transform: scale(1.05);
+}
+
+
+
+ .fast-food {
+  background-color: orange;
+  padding: 2px 4px;
+  font-weight: bold;
+  color: black;
+  margin-right: 15px;
+  border-radius: 6px;
+ }
+
+ .meesho-nav {
+  background-color: orange;
+  padding: 2px 4px;
+  font-weight: bold;
+  color: black;
+  margin-right: 15px;
+  border-radius: 6px;
+ }
+
+ .electric-nav {
+  background-color: orange;
+  padding: 2px 4px;
+  font-weight: bold;
+  color: black;
+  margin-right: 15px;
+  border-radius: 6px;
+ }
+
+
+  @media (max-width: 576px) {
+ 
+  header{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+  }
+
+  header a{
+    font-size: 15px;
+    margin-left: 8px;
+    text-decoration: none;
+  }
+
+
+  .site-logo{
+    font-size: 20px;
+    margin-left: 1px;
+  }
+
+
+   .container{
+    font-size: 15px;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 0;
+    line-height: 35px;
+   }
+   .first-container{
+    margin-top: 30px;
+   }
+   .name-line{
+    font-size: 35px;
+   }
+   .frontend-line{
+    font-size: 25px;
+   }
+   .contact-container {
+    width: 80%;
+   }
+  }
