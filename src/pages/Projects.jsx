@@ -7,7 +7,7 @@ export default function Project(){
         <div className="project-page">
         <h1 className="project-title">Food Delivery App</h1>
         <p className="project-description">
-          The Food Delivery App allows users to browse restaurants, select dishes, and place orders seamlessly. It features real-time tracking, multiple payment options, and a user-friendly interface optimized for a smooth experience.
+        Pizza master is a dynamic food ordering web app built using HTML, CSS, and JavaScript, designed to offer a seamless and interactive user experience. Users can browse a variety of dishes, add them to their cart, and complete their purchase.
           
         <br />
         <a
