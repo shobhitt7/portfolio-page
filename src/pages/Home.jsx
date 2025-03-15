@@ -9,7 +9,7 @@ export default function Contact() {
 
       <div className="code-container">
         <p>
-          <span className="comment">{"➤ // my number"}</span>
+          <span className="comment">{"➤ // my Phone Num"}</span>
           <br />
           <span className="keyword">const</span> <span className="variable">phoneNum = </span> 
           <span className="string">
@@ -17,7 +17,7 @@ export default function Contact() {
           </span>;
           <br />
           <br />
-          <span className="comment">{"➤ // my email"}</span>
+          <span className="comment">{"➤ // my Email Id"}</span>
           <br />
           <span className="keyword">const</span> <span className="variable">Email = </span>
           <span className="string">
@@ -27,7 +27,7 @@ export default function Contact() {
           </span>;
           <br />
           <br />
-          <span className="comment">{"➤ // my GitHub"}</span>
+          <span className="comment">{"➤ // my GitHub Link"}</span>
           <br />
           <span className="keyword">const</span> <span className="variable">GithubLink = </span>
           <span className="string">
@@ -35,7 +35,7 @@ export default function Contact() {
           </span>;
           <br />
           <br />
-          <span className="comment">{"➤ // my LinkedIn"}</span>
+          <span className="comment">{"➤ // my LinkedIn Page"}</span>
           <br />
           <span className="keyword">const</span> <span className="variable">linkedinPage =  </span> 
           <span className="string">
