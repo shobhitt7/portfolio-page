@@ -5,7 +5,7 @@ export default function Meesho() {
     <div className="project-page">
       <h2 className="project-title">Meesho Clone</h2>
       <p className="project-description">
-        A fully responsive e-commerce web app inspired by Meesho, built with React, Tailwind CSS, and integrated with a backend API for product listings, user authentication, and cart management.
+      The Meesho Clone is a frontend-focused project designed using HTML, CSS, and minimal JavaScript to replicate the look and feel of the Meesho e-commerce platform.
         <br />
         <a href="http://meeshoclone14.netlify.app" target="_blank" rel="noopener noreferrer" className="btn-primary">
   Live Demo (Desktop Only)
